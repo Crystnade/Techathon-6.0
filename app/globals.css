@@ -52,6 +52,12 @@ body{margin:0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helve
 
 .footer{margin:20px 0;border-top:1px solid var(--border);padding:16px 4px;color:var(--muted);display:flex;align-items:center;justify-content:space-between}
 
+.form{display:grid;gap:12px;margin:16px 0}
+.field{display:grid;gap:6px}
+.label{color:var(--muted);font-size:14px}
+.input{padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:var(--bg);color:var(--text)}
+.input:focus{outline:2px solid var(--accent);outline-offset:2px}
+
 @media (max-width: 600px){
   .site-container{padding:16px}
   .hero{grid-template-columns:1fr}
