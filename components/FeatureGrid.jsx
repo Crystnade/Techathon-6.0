@@ -8,7 +8,7 @@ export default function FeatureGrid(){
     <section id="features" className="features" aria-label="Features">
       {items.map((it)=> (
         <article className="card" key={it.title}>
-          <div style={{display:'flex',alignItems:'center',gap:'10px',marginBottom:'8px'}}>
+          <div className="card-head">
             <img src={it.icon} width="22" height="22" alt="" aria-hidden="true" />
             <h3 className="card-title">{it.title}</h3>
           </div>
