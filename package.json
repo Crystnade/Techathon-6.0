@@ -1,20 +1,15 @@
 {
-  "name": "builder-app",
-  "version": "1.0.0",
+  "name": "finsta",
+  "version": "0.1.0",
   "private": true,
-  "description": "Minimal dev server to restore app preview",
-  "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js",
-    "start": "node server.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
   "dependencies": {
-    "express": "^4.19.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.0"
+    "next": "^14.2.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }
